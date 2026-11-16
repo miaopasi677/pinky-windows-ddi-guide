@@ -1,5 +1,8 @@
 # Windows 无 Mac 用 Pinky 连接 iPhone（iOS 27+）
 
+[**⬇️ 直接下载 DDI 修复包（31.6 MB）**](https://github.com/miaopasi677/pinky-windows-ddi-guide/releases/download/ddi-27A5228h/pinky-ios-ddi-27A5228h.zip) · [📦 所有版本 / Release](https://github.com/miaopasi677/pinky-windows-ddi-guide/releases) · [🐛 反馈问题](https://github.com/miaopasi677/pinky-windows-ddi-guide/issues) · [⭐ 点个 Star 让更多人搜到](https://github.com/miaopasi677/pinky-windows-ddi-guide)
+
+
 ## 🔎 如果你是搜报错找到这里的
 
 Pinky 在 Windows 上「添加手机 › iPhone」点「下载（32MB）」后出现下面任意一种文字，本仓库就是对应的解法：
