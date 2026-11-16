@@ -1,5 +1,35 @@
 # Windows 无 Mac 用 Pinky 连接 iPhone（iOS 27+）
 
+## 🔎 如果你是搜报错找到这里的
+
+Pinky 在 Windows 上「添加手机 › iPhone」点「下载（32MB）」后出现下面任意一种文字，本仓库就是对应的解法：
+
+```text
+下载没有成功。
+downloading Xcode_iOS_DDI_Cryptex/BuildManifest.plist:
+Get "https://raw.githubusercontent.com/doronz88/DeveloperDiskImage/
+e2aaeac89ca8fa56c2fa1f144d182994e07a525b/PersonalizedImages/...":
+net/http: TLS handshake timeout
+```
+
+也可能长这样：`wsarecv: A connection attempt failed because the connected party did not properly respond`、
+`schannel: server closed abruptly`、`这台电脑上还没有开发者磁盘映像`、
+`no developer disk image on this computer`、`Add phone 下载没有成功`。
+如果你是被 `pinkyctl helper install` / 「这台 iPhone 还没装 Pinky」逼着找 Mac，也请看第 3 节 —— **iOS 27 及以上根本不用装**。
+
+常见的搜法（中英文都列出来，方便搜索引擎收录）：
+
+`Pinky Windows 开发者磁盘映像` · `Pinky DDI 下载失败` · `Pinky TLS handshake timeout` ·
+`Pinky no Mac` · `Pinky 下载没有成功` · `iOS_DDI 27A5228h` · `Xcode_iOS_DDI_Cryptex` ·
+`DeveloperDiskImage Windows` · `raw.githubusercontent.com 超时` · `Pinky WebDriverAgent 无 Mac` ·
+`pinky developer disk image download failed` · `pinky windows no xcode`
+
+> **一句话**：镜像没失效，是 Pinky 直连 `raw.githubusercontent.com` 超时；换 CDN 把 Apple 的
+> Developer Disk Image（iOS_DDI）放到 `%LOCALAPPDATA%\Pinky\DeveloperDiskImages\` 即可。
+
+---
+
+
 一句话：**Windows 上 Pinky 连 iPhone 唯一的真坑是开发者磁盘映像（iOS_DDI）下不下来**。
 镜像没失效，是 Pinky 直连 `raw.githubusercontent.com` 超时。换条 CDN 线路把文件放到指定目录即可。
 iOS 27 及以上**不需要 Mac、不需要 Xcode、不需要在手机上装任何 App、不需要 TestFlight 邀请链接**。
@@ -251,3 +281,18 @@ WARN iphone: could not mount the developer disk image ... err="the iPhone is loc
 - 权利人如要求移除，请提 issue，我们会尽快删除对应的 Release 附件。
 
 本仓库与 Apple Inc.、Pinky 项目、doronz88 均无隶属或背书关系。
+
+---
+
+## Keywords / 搜索关键词
+
+`Pinky` · `Pinky Windows` · `Pinky DDI` · `iOS_DDI` · `Developer Disk Image` ·
+`DeveloperDiskImage` · `27A5228h` · `Xcode 27.0 beta 4` · `Xcode_iOS_DDI_Cryptex` ·
+`BuildManifest.plist` · `Image.dmg.trustcache` · `raw.githubusercontent.com` ·
+`TLS handshake timeout` · `net/http` · `wsarecv` · `no Mac` · `without Xcode` ·
+`Windows 11` · `iOS 27` · `iOS 27.2` · `cryptex` · `WebDriverAgent` · `WDA` ·
+`pymobiledevice3` · `doronz88` · `jsDelivr` · `CDN` · `SHA-256` · `MCP` · `sideload` ·
+`Pinky 下载没有成功` · `开发者磁盘映像` · `苹果开发者镜像` · `无 Mac` · `无 Xcode` ·
+`辅助应用` · `TestFlight 邀请链接` · `Pinky 连接 iPhone`
+
+有问题或想补充其他平台的情况，欢迎开 issue。
